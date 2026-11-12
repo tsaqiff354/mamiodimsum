@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <main class="container">
+
+        <div class="judul" onclick="klikteks()">
+        </div>
+
+        <main class="container">
+        <!-- Bagian judul yang diminta bisa diklik -->
+        <div class="judul" onclick="klikteks()">
+            <h1>Daftar Menu Spesial</h1>
+            <p>Klik di sini untuk menyapa pelanggan!</p>
+        </div>
+
+        <!-- Wadah utama untuk semua item katalog -->
+        <div class="katalog-grid">
+            
+            <!-- Produk 1 -->
+            <div class="produk-card">
+                <img src="https://picsum.photos" alt="Menu 1" class="produk-img">
+                <h3 class="produk-nama">Nasi Goreng Spesial</h3>
+                <p class="produk-deskripsi">Nasi goreng bumbu jawa otentik dengan toping telur mata sapi dan ayam suwir manis.</p>
+                <div class="produk-harga">Rp 25.000</div>
+                <button class="btn-keranjang" onclick="tambahKeKeranjang('Nasi Goreng Spesial')">🛒 Tambah</button>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="produk-card">
+                <img src="https://picsum.photos" alt="Menu 2" class="produk-img">
+                <h3 class="produk-nama">Mie Goreng Seafood</h3>
+                <p class="produk-deskripsi">Mie telur kenyal digoreng dengan udang segar, cumi, dan sayuran segar berkuah kental manis.</p>
+                <div class="produk-harga">Rp 30.000</div>
+                <button class="btn-keranjang" onclick="tambahKeKeranjang('Mie Goreng Seafood')">🛒 Tambah</button>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="produk-card">
+                <img src="asset/dimsum jumbo mix.jpg" alt="Menu 3" class="produk-img">
+                <h3 class="produk-nama">dimsum jumbo mix</h3>
+                <p class="produk-deskripsi">dimsum jumbo mix jamur, udang, sosis, original</p>
+                <div class="produk-harga">Rp 5.000</div>
+                <button class="btn-keranjang" onclick="tambahKeKeranjang('Es Teh Manis Jumbo')">🛒 Tambah</button>
+            </div>
+
+        </div>
+    </main>
+        
+    </main>
+</body>
+</html>
